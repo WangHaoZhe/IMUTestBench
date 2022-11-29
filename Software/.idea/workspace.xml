@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
@@ -8,16 +11,18 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="RM_frame2" targetName="RM_frame2.elf" />
+      <config projectName="RM_Frame_C" targetName="RM_Frame_C.elf" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug-MinGW-STM32" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW-STM32" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3ea38e2-4272-40d0-b0fc-7b7ee60468cc" name="Changes" comment="" />
+    <list default="true" id="c3ea38e2-4272-40d0-b0fc-7b7ee60468cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Hardware/铝方管.SLDPRT" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +31,9 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW-STM32" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,6 +44,7 @@
     <option name="minorVersion" value="2.3" />
   </component>
   <component name="ProjectId" id="2HJAFM3QljRBKnxXnwiVVzhTD6q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,18 +57,33 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Robomaster/IMUTestBench&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Robomaster/Development-Board-C-Examples&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="CMake Application.RM_frame2.elf">
-    <configuration name="RM_frame2.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RM_frame2" TARGET_NAME="RM_frame2.elf" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/RM_frame2.elf">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Robomaster\IMUTestBench\Software" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Robomaster\IMUTestBench\Software\userCode\devices\Src" />
+      <recent name="D:\Robomaster\IMUTestBench\Software\userCode\devices\Inc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.RM_Frame_C">
+    <configuration name="RM_Frame_C.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RM_Frame_C" TARGET_NAME="RM_Frame_C.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RM_Frame_C" RUN_TARGET_NAME="RM_Frame_C.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RM_frame2.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RM_frame2" TARGET_NAME="RM_frame2.elf" version="1" RUN_TARGET_PROJECT_NAME="RM_frame2" RUN_TARGET_NAME="RM_frame2.elf">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\Robomaster\IMUTestBench\Daplink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RM_Frame_C" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RM_Frame_C" TARGET_NAME="RM_Frame_C.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="RM_Frame_C" RUN_TARGET_NAME="RM_Frame_C.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\Robomaster\IMUTestBench\Software\Daplink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
       </openocd>
       <method v="2">
@@ -70,8 +91,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.RM_frame2.elf" />
-      <item itemvalue="OpenOCD Download &amp; Run.RM_frame2.elf" />
+      <item itemvalue="CMake Application.RM_Frame_C.elf" />
+      <item itemvalue="OpenOCD Download &amp; Run.RM_Frame_C" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,6 +110,15 @@
       <workItem from="1668519999509" duration="1244000" />
       <workItem from="1668521262842" duration="584000" />
       <workItem from="1668521862289" duration="76000" />
+      <workItem from="1669039223370" duration="1898000" />
+      <workItem from="1669041276286" duration="9614000" />
+      <workItem from="1669192349944" duration="4260000" />
+      <workItem from="1669462321720" duration="3782000" />
+      <workItem from="1669550850651" duration="540000" />
+      <workItem from="1669551409643" duration="1730000" />
+      <workItem from="1669554700387" duration="3407000" />
+      <workItem from="1669639655895" duration="6576000" />
+      <workItem from="1669646340267" duration="208000" />
     </task>
     <servers />
   </component>
@@ -105,5 +135,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

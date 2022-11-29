@@ -8,6 +8,7 @@
 #include "Device.h"
 #include "Servo.h"
 #include "Motor.h"
+#include "struct_typedef.h"
 /*枚举类型定义------------------------------------------------------------*/
 
 

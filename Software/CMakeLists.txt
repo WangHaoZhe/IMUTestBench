@@ -40,7 +40,7 @@ add_definitions(-D__weak=__attribute__\(\(weak\)\) -D__packed=__attribute__\(\(_
 file(GLOB_RECURSE SOURCES "startup/*.*" "Drivers/*.*" "Src/*.*" "Inc/*.*" "Middlewares/ST/STM32_USB_Device_Library/Core/Src/*.*"
         "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/*.*"
         "userCode/bsp/Src/*.*" "userCode/devices/Src/*.*"
-        "userCode/tasks/Src/*.*" )
+        "userCode/tasks/Src/*.*" "bsp/boards/*")
 
 include_directories(Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
         Drivers/CMSIS/Device/ST/STM32F4xx/Include
@@ -50,6 +50,7 @@ include_directories(Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_D
         userCode/bsp/Inc
         userCode/devices/Inc
         userCode/tasks/Inc
+        bsp/boards
         )
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
