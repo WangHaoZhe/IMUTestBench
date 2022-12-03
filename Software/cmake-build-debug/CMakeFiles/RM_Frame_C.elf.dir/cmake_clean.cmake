@@ -94,6 +94,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_desc.c.obj"
   "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_desc.c.obj.d"
   "CMakeFiles/RM_Frame_C.elf.dir/startup/startup_stm32f407xx.s.obj"
+  "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj"
+  "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj.d"
   "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj"
   "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj.d"
   "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj"

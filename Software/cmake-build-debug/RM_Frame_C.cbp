@@ -467,6 +467,9 @@
 		<Unit filename="D:/Robomaster/IMUTestBench/Software/startup/startup_stm32f407xx.s">
 			<Option target="RM_Frame_C.elf"/>
 		</Unit>
+		<Unit filename="D:/Robomaster/IMUTestBench/Software/userCode/devices/Src/ADXL375.c">
+			<Option target="RM_Frame_C.elf"/>
+		</Unit>
 		<Unit filename="D:/Robomaster/IMUTestBench/Software/userCode/devices/Src/BMI088Middleware.c">
 			<Option target="RM_Frame_C.elf"/>
 		</Unit>

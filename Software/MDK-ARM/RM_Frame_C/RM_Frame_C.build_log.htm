@@ -17,25 +17,23 @@ Library Manager: ArmAr.exe V6.12
 Hex Converter:   FromElf.exe V6.12
 CPU DLL:         SARMCM3.DLL V5.28.0.0
 Dialog DLL:      DCM.DLL V1.17.3.0
-Target DLL:      CMSIS_AGDI.dll V1.31.18.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
 Dialog DLL:      TCM.DLL V1.36.2.0
  
 <h2>Project:</h2>
 D:\Robomaster\IMUTestBench\Software\MDK-ARM\RM_Frame_C.uvprojx
-Project File Date:  11/15/2022
+Project File Date:  12/02/2022
 
 <h2>Output:</h2>
 *** Using Compiler 'V6.12', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 *** Warning: You are compiling one or more files of source type C++ and have selected 'use MicroLIB'. MicroLIB does not support C++!
   
 Build target 'RM_Frame_C'
-../userCode/tasks/Src/UserTask.cpp(5): warning: In file included from...
-../userCode/devices/Inc\BMI088driver.h(4): error: 'struct_typedef.h' file not found
-#include "struct_typedef.h"
-         ^~~~~~~~~~~~~~~~~~
-1 error generated.
-compiling UserTask.cpp...
-".\RM_Frame_C\RM_Frame_C.axf" - 1 Error(s), 0 Warning(s).
+compiling ADXL375.c...
+linking...
+Program Size: Code=53248 RO-data=628 RW-data=584 ZI-data=15584  
+FromELF: creating hex file...
+".\RM_Frame_C\RM_Frame_C.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -58,8 +56,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.2.0
-Target not created.
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

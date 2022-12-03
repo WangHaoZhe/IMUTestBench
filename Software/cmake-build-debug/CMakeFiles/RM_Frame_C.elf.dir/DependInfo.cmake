@@ -84,6 +84,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Robomaster/IMUTestBench/Software/Src/usbd_cdc_if.c" "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_cdc_if.c.obj" "gcc" "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_cdc_if.c.obj.d"
   "D:/Robomaster/IMUTestBench/Software/Src/usbd_conf.c" "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_conf.c.obj" "gcc" "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_conf.c.obj.d"
   "D:/Robomaster/IMUTestBench/Software/Src/usbd_desc.c" "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_desc.c.obj" "gcc" "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_desc.c.obj.d"
+  "D:/Robomaster/IMUTestBench/Software/userCode/devices/Src/ADXL375.c" "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj" "gcc" "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj.d"
   "D:/Robomaster/IMUTestBench/Software/userCode/devices/Src/BMI088Middleware.c" "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj" "gcc" "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj.d"
   "D:/Robomaster/IMUTestBench/Software/userCode/devices/Src/BMI088driver.c" "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj" "gcc" "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj.d"
   "D:/Robomaster/IMUTestBench/Software/userCode/devices/Src/Device.cpp" "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj" "gcc" "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj.d"

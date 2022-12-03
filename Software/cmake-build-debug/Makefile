@@ -1264,6 +1264,30 @@ startup/startup_stm32f407xx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RM_Frame_C.elf.dir\build.make CMakeFiles/RM_Frame_C.elf.dir/startup/startup_stm32f407xx.s.obj
 .PHONY : startup/startup_stm32f407xx.s.obj
 
+userCode/devices/Src/ADXL375.obj: userCode/devices/Src/ADXL375.c.obj
+.PHONY : userCode/devices/Src/ADXL375.obj
+
+# target to build an object file
+userCode/devices/Src/ADXL375.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RM_Frame_C.elf.dir\build.make CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj
+.PHONY : userCode/devices/Src/ADXL375.c.obj
+
+userCode/devices/Src/ADXL375.i: userCode/devices/Src/ADXL375.c.i
+.PHONY : userCode/devices/Src/ADXL375.i
+
+# target to preprocess a source file
+userCode/devices/Src/ADXL375.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RM_Frame_C.elf.dir\build.make CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.i
+.PHONY : userCode/devices/Src/ADXL375.c.i
+
+userCode/devices/Src/ADXL375.s: userCode/devices/Src/ADXL375.c.s
+.PHONY : userCode/devices/Src/ADXL375.s
+
+# target to generate assembly for a file
+userCode/devices/Src/ADXL375.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RM_Frame_C.elf.dir\build.make CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.s
+.PHONY : userCode/devices/Src/ADXL375.c.s
+
 userCode/devices/Src/BMI088Middleware.obj: userCode/devices/Src/BMI088Middleware.c.obj
 .PHONY : userCode/devices/Src/BMI088Middleware.obj
 
@@ -1631,6 +1655,9 @@ help:
 	@echo ... Src/usbd_desc.i
 	@echo ... Src/usbd_desc.s
 	@echo ... startup/startup_stm32f407xx.obj
+	@echo ... userCode/devices/Src/ADXL375.obj
+	@echo ... userCode/devices/Src/ADXL375.i
+	@echo ... userCode/devices/Src/ADXL375.s
 	@echo ... userCode/devices/Src/BMI088Middleware.obj
 	@echo ... userCode/devices/Src/BMI088Middleware.i
 	@echo ... userCode/devices/Src/BMI088Middleware.s

@@ -2705,6 +2705,59 @@ CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_desc.c.obj
  D:/Robomaster/IMUTestBench/Software/Inc/usbd_desc.h
  D:/Robomaster/IMUTestBench/Software/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
 
+CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj
+ D:/Robomaster/IMUTestBench/Software/userCode/devices/Src/ADXL375.c
+ D:/Robomaster/IMUTestBench/Software/userCode/devices/Inc/ADXL375.h
+ D:/Robomaster/IMUTestBench/Software/bsp/boards/struct_typedef.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+ D:/Robomaster/IMUTestBench/Software/Inc/stm32f4xx_hal_conf.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/CMSIS/Include/core_cm4.h
+ D:/Robomaster/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h
+ D:/Robomaster/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdint.h
+ D:/Robomaster/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/machine/_default_types.h
+ D:/Robomaster/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/features.h
+ D:/Robomaster/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/_newlib_version.h
+ D:/Robomaster/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_intsup.h
+ D:/Robomaster/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/sys/_stdint.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/CMSIS/Include/cmsis_version.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/CMSIS/Include/cmsis_compiler.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/CMSIS/Include/cmsis_gcc.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/CMSIS/Include/mpu_armv7.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ D:/Robomaster/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
+ D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
+ D:/Robomaster/IMUTestBench/Software/Inc/spi.h
+ D:/Robomaster/IMUTestBench/Software/Inc/main.h
+
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj
  D:/Robomaster/IMUTestBench/Software/userCode/devices/Src/BMI088Middleware.c
  D:/Robomaster/IMUTestBench/Software/userCode/devices/Inc/BMI088Middleware.h
@@ -2810,7 +2863,6 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj
  D:/Robomaster/IMUTestBench/Software/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h
  D:/Robomaster/IMUTestBench/Software/userCode/devices/Inc/BMI088reg.h
  D:/Robomaster/IMUTestBench/Software/userCode/devices/Inc/BMI088Middleware.h
- D:/Robomaster/IMUTestBench/Software/bsp/boards/struct_typedef.h
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj
  D:/Robomaster/IMUTestBench/Software/userCode/devices/Src/Device.cpp
@@ -3633,5 +3685,5 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/UserTask.cpp.obj
  D:/Robomaster/IMUTestBench/Software/userCode/devices/Inc/Device.h
  D:/Robomaster/IMUTestBench/Software/userCode/devices/Inc/Motor.h
  D:/Robomaster/IMUTestBench/Software/bsp/boards/struct_typedef.h
- D:/Robomaster/IMUTestBench/Software/userCode/devices/Inc/BMI088driver.h
+ D:/Robomaster/IMUTestBench/Software/userCode/devices/Inc/ADXL375.h
 

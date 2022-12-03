@@ -54,6 +54,9 @@
 ".\rm_frame_c\motor.o"
 ".\rm_frame_c\servo.o"
 ".\rm_frame_c\remotecontrol.o"
+".\rm_frame_c\adxl375.o"
+".\rm_frame_c\bmi088driver.o"
+".\rm_frame_c\bmi088middleware.o"
 --library_type=microlib --strict --scatter ".\RM_Frame_C\RM_Frame_C.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

@@ -2,9 +2,8 @@
 // Created by LEGION on 2021/10/4.
 //
 #include "UserTask.h"
-#include "BMI088driver.h"
 #include "stm32f4xx_hal.h"
-
+#include "ADXL375.h"
 
 PID_Regulator_t userPidRegulator = {
         .kp = 60,
@@ -37,17 +36,17 @@ void UserStop(){
  * 在这里写入初始化内容
  */
 void UserInit(){
-    uint16_t IMUAddress = 0x00;
+    //uint16_t IMUAddress = 0x00;
+    adxl_init();
+
 }
 
 /***
  * 用户自定义任务主循环
  */
-
-fp32 gyro[3], accel[3], temp;
-
 void UserHandle(){
     //UserMotor.Handle();
-    BMI088_read(gyro, accel, &temp); //读取BMI088数据
+    adxl_Handle();
+    //adxl_init();
     HAL_Delay(10);
 }

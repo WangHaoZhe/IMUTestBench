@@ -102,12 +102,8 @@ void Error_Handler(void);
 #define INT1_ACCEL_GPIO_Port GPIOC
 #define INT1_GRYO_Pin GPIO_PIN_5
 #define INT1_GRYO_GPIO_Port GPIOC
-#define OLED_RST_Pin GPIO_PIN_12
-#define OLED_RST_GPIO_Port GPIOB
 #define CS1_GYRO_Pin GPIO_PIN_0
 #define CS1_GYRO_GPIO_Port GPIOB
-#define OLED_DC_Pin GPIO_PIN_14
-#define OLED_DC_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

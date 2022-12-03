@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=F:/rm_stm32/RM_Frame_C/RM_Frame_C/Inc
+HeaderPath=D:/Robomaster/IMUTestBench/Software/Inc
 HeaderFiles=gpio.h;tim.h;stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;adc.h;usart.h;dma.h;can.h;i2c.h;spi.h;iwdg.h;usb_device.h;usbd_conf.h;usbd_desc.h;usbd_cdc_if.h;
-SourcePath=F:/rm_stm32/RM_Frame_C/RM_Frame_C/Src
+SourcePath=D:/Robomaster/IMUTestBench/Software/Src
 SourceFiles=gpio.c;tim.c;stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;adc.c;usart.c;dma.c;can.c;i2c.c;spi.c;iwdg.c;usb_device.c;usbd_conf.c;usbd_desc.c;usbd_cdc_if.c;
 
 [PreviousLibFiles]

@@ -739,10 +739,24 @@ CMakeFiles/RM_Frame_C.elf.dir/startup/startup_stm32f407xx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/RM_Frame_C.elf.dir/startup/startup_stm32f407xx.s.s"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\Robomaster\IMUTestBench\Software\startup\startup_stm32f407xx.s -o CMakeFiles\RM_Frame_C.elf.dir\startup\startup_stm32f407xx.s.s
 
+CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
+CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj: ../userCode/devices/Src/ADXL375.c
+CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj"
+	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\ADXL375.c.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\ADXL375.c.obj -c D:\Robomaster\IMUTestBench\Software\userCode\devices\Src\ADXL375.c
+
+CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.i"
+	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Robomaster\IMUTestBench\Software\userCode\devices\Src\ADXL375.c > CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\ADXL375.c.i
+
+CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.s"
+	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Robomaster\IMUTestBench\Software\userCode\devices\Src\ADXL375.c -o CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\ADXL375.c.s
+
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj: ../userCode/devices/Src/BMI088Middleware.c
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\BMI088Middleware.c.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\BMI088Middleware.c.obj -c D:\Robomaster\IMUTestBench\Software\userCode\devices\Src\BMI088Middleware.c
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.i: cmake_force
@@ -756,7 +770,7 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.s: cmake_f
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj: ../userCode/devices/Src/BMI088driver.c
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\BMI088driver.c.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\BMI088driver.c.obj -c D:\Robomaster\IMUTestBench\Software\userCode\devices\Src\BMI088driver.c
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.i: cmake_force
@@ -770,7 +784,7 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.s: cmake_force
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj: ../userCode/devices/Src/Device.cpp
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\Device.cpp.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\Device.cpp.obj -c D:\Robomaster\IMUTestBench\Software\userCode\devices\Src\Device.cpp
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.i: cmake_force
@@ -784,7 +798,7 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.s: cmake_force
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Motor.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Motor.cpp.obj: ../userCode/devices/Src/Motor.cpp
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Motor.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Motor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Motor.cpp.obj"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Motor.cpp.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\Motor.cpp.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\Motor.cpp.obj -c D:\Robomaster\IMUTestBench\Software\userCode\devices\Src\Motor.cpp
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Motor.cpp.i: cmake_force
@@ -798,7 +812,7 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Motor.cpp.s: cmake_force
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/RemoteControl.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/RemoteControl.cpp.obj: ../userCode/devices/Src/RemoteControl.cpp
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/RemoteControl.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/RemoteControl.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/RemoteControl.cpp.obj"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/RemoteControl.cpp.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\RemoteControl.cpp.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\RemoteControl.cpp.obj -c D:\Robomaster\IMUTestBench\Software\userCode\devices\Src\RemoteControl.cpp
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/RemoteControl.cpp.i: cmake_force
@@ -812,7 +826,7 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/RemoteControl.cpp.s: cmake_fo
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Servo.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Servo.cpp.obj: ../userCode/devices/Src/Servo.cpp
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Servo.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Servo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Servo.cpp.obj"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Servo.cpp.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\Servo.cpp.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\devices\Src\Servo.cpp.obj -c D:\Robomaster\IMUTestBench\Software\userCode\devices\Src\Servo.cpp
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Servo.cpp.i: cmake_force
@@ -826,7 +840,7 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Servo.cpp.s: cmake_force
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ChassisTask.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ChassisTask.cpp.obj: ../userCode/tasks/Src/ChassisTask.cpp
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ChassisTask.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ChassisTask.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ChassisTask.cpp.obj"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ChassisTask.cpp.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\tasks\Src\ChassisTask.cpp.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\tasks\Src\ChassisTask.cpp.obj -c D:\Robomaster\IMUTestBench\Software\userCode\tasks\Src\ChassisTask.cpp
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ChassisTask.cpp.i: cmake_force
@@ -840,7 +854,7 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ChassisTask.cpp.s: cmake_force
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ControlTask.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ControlTask.cpp.obj: ../userCode/tasks/Src/ControlTask.cpp
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ControlTask.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ControlTask.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ControlTask.cpp.obj"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ControlTask.cpp.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\tasks\Src\ControlTask.cpp.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\tasks\Src\ControlTask.cpp.obj -c D:\Robomaster\IMUTestBench\Software\userCode\tasks\Src\ControlTask.cpp
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ControlTask.cpp.i: cmake_force
@@ -854,7 +868,7 @@ CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/ControlTask.cpp.s: cmake_force
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/UserTask.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/flags.make
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/UserTask.cpp.obj: ../userCode/tasks/Src/UserTask.cpp
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/UserTask.cpp.obj: CMakeFiles/RM_Frame_C.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/UserTask.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/UserTask.cpp.obj"
 	D:\Robomaster\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/UserTask.cpp.obj -MF CMakeFiles\RM_Frame_C.elf.dir\userCode\tasks\Src\UserTask.cpp.obj.d -o CMakeFiles\RM_Frame_C.elf.dir\userCode\tasks\Src\UserTask.cpp.obj -c D:\Robomaster\IMUTestBench\Software\userCode\tasks\Src\UserTask.cpp
 
 CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/UserTask.cpp.i: cmake_force
@@ -915,6 +929,7 @@ RM_Frame_C_elf_OBJECTS = \
 "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_conf.c.obj" \
 "CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_desc.c.obj" \
 "CMakeFiles/RM_Frame_C.elf.dir/startup/startup_stm32f407xx.s.obj" \
+"CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj" \
 "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj" \
 "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj" \
 "CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj" \
@@ -976,6 +991,7 @@ RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_cdc_if.c.obj
 RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_conf.c.obj
 RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/Src/usbd_desc.c.obj
 RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/startup/startup_stm32f407xx.s.obj
+RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/ADXL375.c.obj
 RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088Middleware.c.obj
 RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/BMI088driver.c.obj
 RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/userCode/devices/Src/Device.cpp.obj
@@ -988,7 +1004,7 @@ RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/userCode/tasks/Src/UserTask.cpp.ob
 RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/build.make
 RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/objects1.rsp
 RM_Frame_C.elf: CMakeFiles/RM_Frame_C.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable RM_Frame_C.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Robomaster\IMUTestBench\Software\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Linking CXX executable RM_Frame_C.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RM_Frame_C.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Robomaster/IMUTestBench/Software/cmake-build-debug/RM_Frame_C.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Robomaster/IMUTestBench/Software/cmake-build-debug/RM_Frame_C.bin"
