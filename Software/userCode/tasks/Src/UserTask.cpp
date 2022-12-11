@@ -23,7 +23,7 @@ MOTOR_INIT_t userMotorInit = {
         .ctrlType = POSITION_Double,
 };
 
-Motor UserMotor(MOTOR_ID_5,&userMotorInit);
+Motor UserMotor(MOTOR_ID_1,&userMotorInit);
 
 /***
  * 在这里放入xxx.stop()即可使舵机,电机在遥控器急停挡位断电
@@ -37,7 +37,8 @@ void UserStop(){
  */
 void UserInit(){
     //uint16_t IMUAddress = 0x00;
-    adxl_init();
+    //adxl_init();
+    UserMotor.Init();
 
 }
 
@@ -45,8 +46,8 @@ void UserInit(){
  * 用户自定义任务主循环
  */
 void UserHandle(){
-    //UserMotor.Handle();
-    adxl_Handle();
+    UserMotor.Handle();
+    //adxl_Handle();
     //adxl_init();
-    HAL_Delay(10);
+    //HAL_Delay(10);
 }
